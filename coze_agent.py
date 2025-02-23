@@ -47,14 +47,14 @@ def ask_coze(message_question: str) -> tuple[str, list]:
         elif message.type == "follow_up":
             message_follow_up.append(message.content)
 
-    print(message_answer)
-    print(message_follow_up)
+    #print(message_answer)
+    #print(message_follow_up)
 
     return message_answer, message_follow_up
 
 
-ret_answer, ret_follow_up = ask_coze("煎牛排推荐用什么锅具？")
+#ret_answer, ret_follow_up = ask_coze("煎牛排推荐用什么锅具？")
 
-print(ret_answer)
-print(ret_follow_up)
+#print(ret_answer)
+#print(ret_follow_up)
 
